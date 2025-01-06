@@ -74,9 +74,9 @@ export const ServicesInvestment = () => {
             {Object.keys(tabs).map((tab) => (
               <motion.button
                 whileTap={{ scale: 0.85 }} className='motionBtn'>
-                <button key={tab} onClick={() => handelClick(tab)}
+                <Button key={tab} onClick={() => handelClick(tab)}
                   className={activeTab === tab ? "active" : ""}  >{tab}
-                </button>
+                </Button>
               </motion.button>
             ))}
           </Col>
