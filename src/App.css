@@ -61,6 +61,41 @@ a {
 }
 /* end navBar */
 
+/* Welcome page  */
+.welcome-page {
+  background-image: url(../src/imgs/calculator-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 84.2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white
+}
+
+
+.welcome h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.welcome .btn {
+  margin-top: 20px;
+  background-color: var(--scond-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+
+
 /* START Home-Slider */
 .home-slider {
   margin-top: 40px;
