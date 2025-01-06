@@ -48,17 +48,17 @@ const AboutSlider = () => {
                     <Row>
                         <Col lg={8} sm={12}>
                             <div className="left">
+                                <div className='tabs d-flex justify-content-center align-items-center'>
 
-                                <div className="tabs">
                                     {Object.keys(tabs).map((tab) => (
                                         <motion.button
-                                            whileTap={{ scale: 0.85 }} className='motionBtn'>
+                                            whileTap={{ scale: 0.85 }} className='motionBtn '>
                                             <button key={tab} onClick={() => handelClick(tab)}
-                                                className={activeTab === tab ? "active " : ""}  >{tab} </button>
+                                                className={activeTab === tab ? "active " : ""} >{tab} </button>
                                         </motion.button>
                                     ))}
-                                </div>
 
+                                </div>
 
                                 <Zoom key={activeTab}>
                                     <div className="table-content " >
