@@ -38,7 +38,7 @@ const AboutSlider = () => {
     };
 
     return (
-        <div className='aboutSlider'>
+        <div className='aboutSlider' id='about'>
             <Container>
                 <div className="title text-center pb-4">
                     <h5 className='text-uppercase fw-bold'>About Us</h5>

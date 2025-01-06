@@ -19,7 +19,7 @@ const Testimonials = () => {
     };
 
     return (
-        <div className='testimonials'>
+        <div className='testimonials' id='Testimonials'>
             <Container>
                 <div className="title text-center pb-4">
                     <h5 className='text-uppercase fw-bold'>Testimonials</h5>

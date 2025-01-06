@@ -11,7 +11,7 @@ import imgServicesContent3 from "../../imgs/service-image-03.jpg";
 
 const ServicesContent = () => {
     return (
-        <div className='services-content mt-5'>
+        <div className='services-content mt-5' id='Services'>
             <Container>
                 <Row className='d-flex align-items-center justify-content-between my-4'>
                     <Col lg={6}>

@@ -59,7 +59,7 @@ export const ServicesInvestment = () => {
   };
 
   return (
-    <div className='services-investment'>
+    <div className='services-investment' id='about'>
 
       <div className="title text-center ">
         <h5 className='text-uppercase fw-bold orange'>Investment in Details</h5>

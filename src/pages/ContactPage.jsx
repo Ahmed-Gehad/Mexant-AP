@@ -12,7 +12,7 @@ const ContactPage = () => {
         <ContactHome />
         <MapContact />
        <Container>
-       <Row className='d-flex justify-content-between '>
+       <Row className='d-flex justify-content-between  mb-5'>
         <Col lg={8}>
         <MassageContact />
         </Col>
