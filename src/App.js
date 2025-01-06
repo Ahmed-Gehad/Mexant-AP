@@ -7,7 +7,6 @@ import Footer from './component/Footer';
 import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
-import WelcomePage from './pages/WelcomePage';
 
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
     <div className="App">
       <Navv />
       <Routes>
-        <Route path='/mexant-app' element={<WelcomePage />} />
         <Route path='/' element={<HomePage />} />
         <Route path='/pages/about' element={<AboutPage />} />
         <Route path='/pages/services' element={<ServicesPage />} />
