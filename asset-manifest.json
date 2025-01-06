@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Mexant-AP/static/css/main.0e31de66.css",
+    "main.js": "/Mexant-AP/static/js/main.9e5c8d30.js",
+    "static/media/coffee-1283672_1920-fotor-2024091019910.png": "/Mexant-AP/static/media/coffee-1283672_1920-fotor-2024091019910.9e5aeae0537cd6c8c491.png",
+    "static/media/pikaso_edit.jpeg": "/Mexant-AP/static/media/pikaso_edit.dfe5ec0bccb4de8c7913.jpeg",
+    "static/media/pikaso_embed1.jpeg": "/Mexant-AP/static/media/pikaso_embed1.f7dac3ebefd77dad63ea.jpeg",
+    "static/media/calculator-bg.jpg": "/Mexant-AP/static/media/calculator-bg.3e1e3d3b0debe48c0ff2.jpg",
+    "static/media/pikaso_embed.jpeg": "/Mexant-AP/static/media/pikaso_embed.e02a701cdb4e7b111eb3.jpeg",
+    "static/media/service-image-03.jpg": "/Mexant-AP/static/media/service-image-03.9512c280b15b7cebed2a.jpg",
+    "static/media/service-image-02.jpg": "/Mexant-AP/static/media/service-image-02.937ad169d6ceaf870e5c.jpg",
+    "static/media/service-image-01.jpg": "/Mexant-AP/static/media/service-image-01.afef1847b72322c73da5.jpg",
+    "static/media/service-details-03.jpg": "/Mexant-AP/static/media/service-details-03.fd401bfacfbe6ba11abc.jpg",
+    "static/media/service-details-02.jpg": "/Mexant-AP/static/media/service-details-02.61c629faa3022bb1b01e.jpg",
+    "static/media/testimonials-01.jpg": "/Mexant-AP/static/media/testimonials-01.cf771fa8f63cdab29611.jpg",
+    "static/media/cta-bg.jpg": "/Mexant-AP/static/media/cta-bg.6698bd6aca6e44ea2ecb.jpg",
+    "static/media/service-details-01.jpg": "/Mexant-AP/static/media/service-details-01.85df17a05a0f12a835d4.jpg",
+    "index.html": "/Mexant-AP/index.html",
+    "main.0e31de66.css.map": "/Mexant-AP/static/css/main.0e31de66.css.map",
+    "main.9e5c8d30.js.map": "/Mexant-AP/static/js/main.9e5c8d30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e31de66.css",
+    "static/js/main.9e5c8d30.js"
+  ]
+}
