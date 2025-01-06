@@ -10,7 +10,7 @@ const AboutPage = () => {
       <AboutHome />
       <AboutContent />
       <Business />
-      <StepsAbout/>
+      <StepsAbout />
     </div>
   )
 }

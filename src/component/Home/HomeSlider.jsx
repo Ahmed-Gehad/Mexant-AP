@@ -36,14 +36,17 @@ function HomeSlider() {
                             <div className='line mt-3'></div>
                             <p className='lead mt-3'>Mexant HTML5 Template is provided for free of charge. This layout is based on Boostrap 5 CSS framework. Anyone can download and edit for any professional website. Thank you for visiting TemplateMo website.</p>
 
-                            <div>
+                            <div className='d-flex align-items-center '>
                                 <motion.button whileTap={{ scale: 0.85 }} className='motionBtn'>
                                     <Button variant="success" size='lg' className='orangeBtn'>Discover More</Button>
                                 </motion.button>
+
                                 <Link to="/contact">
-                                <motion.button whileTap={{ scale: 0.85 }} className='motionBtn'>
-                                    <Button variant="success" size='lg'>Countact</Button>
-                                </motion.button>
+                                    <motion.button whileTap={{ scale: 0.85 }} className='motionBtn'>
+
+                                        <Button variant="success" size='lg'>Countact</Button>
+
+                                    </motion.button>
                                 </Link>
                             </div>
                         </Carousel.Caption>
@@ -60,14 +63,17 @@ function HomeSlider() {
                             <div className='line mt-3'></div>
                             <p className='lead mt-3'>ou will see a bunch of free CSS templates when you search on Google. TemplateMo website is probably the best one because it is 100% free. It does not ask you anything in return. You have a total freedom to use any template for any purpose.</p>
 
-                            <div>
+                            <div className='d-flex align-items-center '>
                                 <motion.button whileTap={{ scale: 0.85 }} className='motionBtn'>
                                     <Button variant="success" size='lg' className='orangeBtn'>Discover More</Button>
                                 </motion.button>
+
                                 <Link to="/contact">
-                                <motion.button whileTap={{ scale: 0.85 }} className='motionBtn'>
-                                    <Button variant="success" size='lg'>Countact</Button>
-                                </motion.button>
+                                    <motion.button whileTap={{ scale: 0.85 }} className='motionBtn'>
+
+                                        <Button variant="success" size='lg'>Countact</Button>
+
+                                    </motion.button>
                                 </Link>
                             </div>
                         </Carousel.Caption>

@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 
 const StepsAbout = () => {
     return (
-        <div className='stepsAbout' id='About'>
+        <div className='stepsAbout mb-5' id='About'>
             <Container>
                 <Row className='mt-5 d-flex justify-content-between'>
                     <Col lg={6} className='px-3'>
@@ -38,7 +38,7 @@ const StepsAbout = () => {
                         </div>
                         </Col>
                        </Row>
-                       <Row>
+                       <Row className='py-3'>
                        <Col lg={6}> 
                         <div className="item ">
                             <span>03</span>
