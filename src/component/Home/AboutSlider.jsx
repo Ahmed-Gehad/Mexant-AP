@@ -48,7 +48,7 @@ const AboutSlider = () => {
                     <Row>
                         <Col lg={8} sm={12}>
                             <div className="left">
-                                <div className='tabs d-flex justify-content-center align-items-center'>
+                                <div className='tabs d-flex justify-content-center align-items-center mx-1'>
 
                                     {Object.keys(tabs).map((tab) => (
                                         <motion.button

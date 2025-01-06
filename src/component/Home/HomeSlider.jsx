@@ -84,7 +84,7 @@ function HomeSlider() {
                             <div className='line mt-3'></div>
                             <p className='lead mt-3'>When you browse through different tags on TemplateMo website, you can see a variety of CSS templates which are responsive website designs for different individual needs. Please tell your friends about our website. Thank you.</p>
 
-                            <div>
+                            <div className='d-flex align-items-center '>
                                 <motion.button whileTap={{ scale: 0.85 }} className='motionBtn'>
                                     <Button variant="success" size='lg' className='orangeBtn'>Discover More</Button>
                                 </motion.button>

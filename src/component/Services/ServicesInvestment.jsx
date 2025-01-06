@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import { motion } from 'framer-motion';
 
 // Import for imge 
-import investImage1 from "../../imgs/service-details-01.jpg"
+import investImage1 from "../../imgs/service-details-03.jpg"
 import investImage2 from "../../imgs/service-details-02.jpg"
 import investImage3 from "../../imgs/service-details-03.jpg"
 
@@ -95,7 +95,7 @@ export const ServicesInvestment = () => {
                   </div>
                 </Col>
                 <Col lg={6} className='m-5'>
-                  <h3 className='fw-bold '>{title}</h3>
+                  <h3 className='fw-bold w-75'>{title}</h3>
                   <p className='py-4 lead w-75'>{desc}</p>
                   <span className='fw-bold lead'>{span1}</span>
                   <br />
