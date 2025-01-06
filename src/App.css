@@ -1,38 +1,316 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --main-color: #212741;
+  --hover-color: #2127410f;
+  --scond-color: #ff511a;
+  --thired-color: #43ba7f;
 }
+.orange {
+  color: var(--scond-color);
+}
+.green {
+  color: var(--thired-color);
+}
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.active {
+  color: var(--scond-color) !important;
+}
+/* start navBar */
+.navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.bg-body-tertiary {
+  background-color: var(--main-color) !important;
+}
+.logo {
+  width: 150px;
+}
+.navBar a {
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.navBar a:not(.active) {
+  color: white !important;
+}
+.navbar-nav .dropdown-menu a {
+  color: var(--main-color) !important;
+  margin: 0;
+  display: inline-block;
+}
+.navbar-toggler {
+  background-color: white;
+  border: none;
+}
+.motionBtn {
+  background: none;
+  border: none;
+  outline: none;
+}
+/* end navBar */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* START Home-Slider */
+.home-slider {
+  margin-top: 40px;
+}
+.home-slider img {
+  filter: brightness(0.2);
+  height: 90vh;
+}
+.carousel-caption {
+  text-align: left;
+  top: 10%;
+  width: 45%;
+}
+.carousel-caption h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.carousel-caption span {
+  color: var(--scond-color);
+}
+.line {
+  width: 100px;
+  height: 3px;
+  background: white;
+}
+.orangeBtn {
+  background: var(--scond-color);
+  border: none;
+  margin-right: 30px;
+}
+@media(max-width:992px) {
+  .carousel-caption {
+      padding-right: 20px;
+      width: 80%;
   }
 }
+/* END Home-Slider */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* START SERVIES */
+.services .title h5 {
+  color: var(--scond-color);
+}
+.services .title h1 {
+  color: var(--main-color);
+}
+.services .services-item i {
+  font-size: 64px;
+  color: var(--thired-color);
+  margin-right: 30px !important;
+  transition: all 0.5s;
+}
+.services .services-item:hover i {
+  margin-top: 10px;
+}
+/* End SERVIES */
+
+/* START business */
+.business {
+  background-image: url(imgs/cta-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 70px 50px !important;
+  margin-top: 80px;
+}
+.business h2 {
+  font-size: 35px;
+}
+/* END business */
+
+/* START aboutSlider */
+.aboutSlider .title h5 {
+  color: var(--scond-color);
+  margin-top: 100px;
+}
+.aboutSlider .title h1 {
+  color: var(--main-color);
+}
+.aboutSlider .left .tabs button {
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  font-weight: 600 !important;
+  border: none;
+  margin: 15px;
+  padding: 20px 10px;
+}
+.aboutSlider .left .tabs button:active {
+  color: var(--scond-color);
+}
+.aboutSlider .left .tabs .motionBtn{
+  border: none;
+  box-shadow: none;
+}
+.aboutSlider .table-content {
+  margin-top: 40px;
+}
+.aboutSlider table {
+  width: 100%;
+}
+.aboutSlider table thead th {
+  color: var(--main-color);
+}
+.aboutSlider table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+/* End aboutSlider */
+
+/* START testimonials */
+.testimonials .title h5 {
+  color: var(--scond-color);
+  margin-top: 100px;
+}
+.testimonials .title h1 {
+  color: var(--main-color);
+}
+.testimonials i{
+  background-color: var(--thired-color);
+  padding: 20px;
+  border-radius: 10px;
   color: white;
+  font-size: 30px;
+  
 }
-
-.App-link {
-  color: #61dafb;
+@media(max-width:992px){
+  .testimonials  .items{
+      flex-direction: column-reverse;
+  }
+  .testimonials  .info{
+      text-align: center;
+  }
+  .testimonials  img{
+      margin-left: 20px;
+      width: 200px !important;
+      height: 200px;
+      border-radius: 50%;
+  }
 }
+/* End testimonials */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Start Footer  */
+.footer{
+  background-color: var(--main-color);
+}
+/* End Footer  */
+
+/* START ABOUT HOME  */
+.about-home{
+  background-image: url(imgs/calculator-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 45vh;
+  padding-top: 100px !important;
+}
+.about-home .line{
+margin: 30px auto;
+}
+/* End ABOUT HOME  */
+
+/* Start About Content  */
+.about-content{
+  margin-top: 120px;
+}
+.about-content .content{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  margin-left: 30px;
+}
+.about-content .accordion-button{
+  box-shadow: none;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 10px;
+}
+.accordion-button:not(.collapsed){
+  color: var(--thired-color);
+}
+/* End About Content  */
+
+/* Start steps About  */
+.stepsAbout .item{
+  position: relative;
+  padding: 40px 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.stepsAbout .item span{
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  font-size: 40px;
+  color: var(--thired-color);
+  font-weight: 600;
+  transition: all .5s ease;
+}
+.stepsAbout .item:hover span{
+  margin-top: 10px;
+}
+/* End steps About  */
+
+/* START services   Home  */
+
+.services-Home{
+  background-image: url(imgs/calculator-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 45vh;
+  padding-top: 100px !important;
+}
+.services-Home .line{
+margin: 30px auto;
+}
+/* End services  Home  */
+
+/* Start services investment */
+.services-investment .title h5 {
+  color: var(--scond-color);
+  margin-top: 100px;
+}
+.services-investment .title h1 {
+  color: var(--main-color);
+}
+.services-investment .content{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.services-investment .tabs button {
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  font-weight: 600 !important;
+  border: none;
+  padding: 20px 10px;
+}
+.services-investment  .tabs button:active {
+  color: var(--scond-color);
+}
+.services-investment .tabs .motionBtn{
+  border: none;
+  box-shadow: none;
+}
+.services-investment img{
+  width: 100%;
+  height: 350px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.services-investment span{
+  margin-top: 20px !important;
+}
+/* End services investment */
+
+/* Start Countact Page */
+
+form{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.6);
 }
