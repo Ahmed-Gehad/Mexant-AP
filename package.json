@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://ahmed-gehad.github.io/mexant-app",
+  "homepage": "https://ahmed-gehad.github.io/mexant-app",
   "name": "mexant-app",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.15.0",
+    "package-name": "^0.1.0",
     "react": "^19.0.0",
     "react-awesome-reveal": "^4.3.1",
     "react-bootstrap": "^2.10.7",
@@ -23,8 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
